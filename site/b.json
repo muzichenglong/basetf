@@ -12,6 +12,7 @@
 			"class": [{
 				"name": "首页",
 				"type": "index",
+				"url": "https://m.kankanwu.com",
 				"list": [{
 						"name": "频道1",
 						"type": "rule",
@@ -93,6 +94,7 @@
 			"class": [{
 				"name": "首页",
 				"type": "index",
+				"url": "https://m.kankanwu.com",
 				"list": [{
 						"name": "频道1",
 						"type": "rule",
