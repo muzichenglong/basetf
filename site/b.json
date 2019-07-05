@@ -1,7 +1,9 @@
 {
 	"code":200,
-	"site":[{
+	"site":[
+		{
 		"name":"第一天",
+		"code":"name1",
 		"desc":"描述",
 		"version":"",
 		"url":"https://m.kankanwu.com",
@@ -84,6 +86,7 @@
 	},
 	{
 		"name":"第二天",
+		"code":"name2",
 		"desc":"描述",
 		"version":"",
 		"url":"https://m.kankanwu.com",
