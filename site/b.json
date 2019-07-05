@@ -4,6 +4,7 @@
 		{
 		"name":"第一天",
 		"code":"name1",
+		"status":1,
 		"desc":"描述",
 		"version":"",
 		"url":"https://m.kankanwu.com",
