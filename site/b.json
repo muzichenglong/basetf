@@ -6,7 +6,7 @@
 			"status": 1,
 			"desc": "描述",
 			"version": "",
-			"url": "https://m.kankanwu.com",
+			"url": "http://m.56kandy.com",
 			"note": "",
 			"icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516001550&di=776d182acfda693a471c6ccd6e9d1cd7&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fpview%2Fevent_poster%2Fraw%2Fpublic%2F9d2da8b890c94e1.jpg",
 			"class": [{
@@ -18,10 +18,10 @@
 						"type": "rule",
 						"mod": "3",
 						"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E5%BD%B1.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bdata-original%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 						"item": {
-							"url": "https://m.kankanwu.com",
-							"imgurl": "https://m.kankanwu.com",
+							"url": "http://m.56kandy.com",
+							"imgurl": "http://m.56kandy.com",
 							"name": 2,
 							"href": 1,
 							"img": 3,
@@ -35,10 +35,10 @@
 						"type": "rule",
 						"mod": "3",
 						"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E8%A7%86.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bdata-original%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 						"item": {
-							"imgurl": "https://m.kankanwu.com",
-							"url": "https://m.kankanwu.com",
+							"imgurl": "http://m.56kandy.com",
+							"url": "http://m.56kandy.com",
 							"name": 2,
 							"href": 1,
 							"img": 3,
@@ -52,10 +52,10 @@
 						"type": "rule",
 						"mod": "3",
 						"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E5%8A%A8%E6%BC%AB.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bdata-original%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 						"item": {
-							"imgurl": "https://m.kankanwu.com",
-							"url": "https://m.kankanwu.com",
+							"imgurl": "http://m.56kandy.com",
+							"url": "http://m.56kandy.com",
 							"name": 2,
 							"href": 1,
 							"img": 3,
@@ -69,10 +69,10 @@
 						"type": "rule",
 						"mod": "3",
 						"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%BB%BC%E8%89%BA.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+						"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22%5Cs%2Bdata-original%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 						"item": {
-							"imgurl": "https://m.kankanwu.com",
-							"url": "https://m.kankanwu.com",
+							"imgurl": "http://m.56kandy.com",
+							"url": "http://m.56kandy.com",
 							"name": 2,
 							"href": 1,
 							"img": 3,
