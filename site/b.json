@@ -85,7 +85,7 @@
 			}],
 			"detail":{
 				"url":"",
-				"tit_con":"%3Cdiv.*%3Fclass%3D%5C%22main%5C%22.*%3Fid%3D%5C%22resize_vod%5C%22%3E(%5B%5Cs%5CS%5D*%3F)%3Cdiv.*%3Fclass%3D%5C%22vod-play-tab.*%3Fmain%5C%22%3E%0A",
+				"tit_con":"%3Cdiv.*%3Fclass%3D%5C%22main%5C%22.*%3Fid%3D%5C%22resize_vod%5C%22%3E(%5B%5Cs%5CS%5D*%3F)%3Cdiv.*%3Fclass%3D%5C%22vod-play-tab.*%3Fmain%5C%22%3E",
 				"tit_rule":"class%3D%5C%22vod-l%5C%22%5B%5Cs%5CS%5D*%3Fdata-original%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3Fclass%3D%5C%22vod-n-l%5C%22%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E",
 				"tit_item":{
 					"img":"",
