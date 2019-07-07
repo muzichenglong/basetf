@@ -107,7 +107,7 @@
 					},
 					"list_con":"%3Cdiv.*%3Fclass%3D%5C%22vod-info-tab%5C%22%5B%5Cs%5CS%5D*%3F%E6%92%AD%E6%94%BE%5B%5Cs%5CS%5D*%3F(%5B%5Cs%5CS%5D*%3F)%3C!--%E7%AE%80%E4%BB%8B%E6%9D%BF%E5%9D%97--%3E",
 					"list_con_con":"class%3D%5C%22play-box%5C%22.*%3Fid%3D%22%5B%5Exi%5D.*%3F%22(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E",
-					"list_rule":"%3Cli%3E.*%3F%3Ca%5B%5Cs%5CS%5D*%3Fhref%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%3E",
+					"list_rule":"%3Cli.*%3F%3E%5B%5Cs%5CS%5D*%3F%3Ca%5B%5Cs%5CS%5D*%3Fhref%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%3E",
 					"list_item":{
 						"name":2,
 						"href":1,
