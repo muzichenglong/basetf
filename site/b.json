@@ -1,6 +1,7 @@
 {
 	"code": 200,
-	"site": [{
+	"site": [
+		{
 			"name": "第一天",
 			"code": "name1",
 			"status": 1,
@@ -120,86 +121,123 @@
 
 		},
 		{
-			"name": "第二天",
-			"code": "name2",
-			"status": 1,
-			"desc": "描述",
-			"version": "",
-			"url": "https://m.kankanwu.com",
-			"note": "",
-			"icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516001550&di=776d182acfda693a471c6ccd6e9d1cd7&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fpview%2Fevent_poster%2Fraw%2Fpublic%2F9d2da8b890c94e1.jpg",
-			"class": [{
-				"name": "首页",
-				"type": "index",
+				"name": "第二天",
+				"code": "name2",
+				"status": 1,
+				"desc": "描述",
+				"version": "",
 				"url": "https://m.kankanwu.com",
-				"list": [{
-						"name": "频道1",
-						"type": "rule",
-						"mod": 3,
-						"con": "<div class=\"modo_title top\">.*?电影.*?<\/h2>[\s\S]*?<div class=\"all_tab\"[\s\S]*?<ul.*?>([\s\S]*?)<\/ul>", //内容范围
-						"list": "<li><a href=\"(.*?)\" title=\"(.*?)\"[\s\S]*?<img class=\"loading\" src=\"(.*?)\"[\s\S]*?class=\"title\">(.*?)<[\s\S]*?</li>",
-						"item": {
-							"url": "https://m.kankanwu.com",
-							"imgurl": "https://m.kankanwu.com",
-							"name": 2,
-							"href": 1,
-							"img": 3,
-							"note": 4,
-							"href_befor": 1,
-							"img_befor": 1
+				"note": "",
+				"icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536516001550&di=776d182acfda693a471c6ccd6e9d1cd7&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fpview%2Fevent_poster%2Fraw%2Fpublic%2F9d2da8b890c94e1.jpg",
+				"class": [{
+					"name": "首页",
+					"type": "index",
+					"url": "https://m.kankanwu.com",
+					"list": [{
+							"name": "频道1",
+							"type": "rule",
+							"mod": "3",
+							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E5%BD%B1.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"item": {
+								"url": "https://m.kankanwu.com",
+								"imgurl": "https://m.kankanwu.com",
+								"name": 2,
+								"href": 1,
+								"img": 3,
+								"note": 4,
+								"href_befor": 1,
+								"img_befor": 0
+							}
+						},
+						{
+							"name": "频道2",
+							"type": "rule",
+							"mod": "3",
+							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E8%A7%86.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"item": {
+								"imgurl": "https://m.kankanwu.com",
+								"url": "https://m.kankanwu.com",
+								"name": 2,
+								"href": 1,
+								"img": 3,
+								"note": 4,
+								"href_befor": 1,
+								"img_befor": 0
+							}
+						},
+						{
+							"name": "频道3",
+							"type": "rule",
+							"mod": "3",
+							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E5%8A%A8%E6%BC%AB.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"item": {
+								"imgurl": "https://m.kankanwu.com",
+								"url": "https://m.kankanwu.com",
+								"name": 2,
+								"href": 1,
+								"img": 3,
+								"note": 4,
+								"href_befor": 1,
+								"img_befor": 0
+							}
+						},
+						{
+							"name": "频道4",
+							"type": "rule",
+							"mod": "3",
+							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%BB%BC%E8%89%BA.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"item": {
+								"imgurl": "https://m.kankanwu.com",
+								"url": "https://m.kankanwu.com",
+								"name": 2,
+								"href": 1,
+								"img": 3,
+								"note": 4,
+								"href_befor": 1,
+								"img_befor": 0
+							}
 						}
+					]
+				}],
+				"detail":{
+					"url":"",
+					"tit_con":"%3Cdiv.*%3Fclass%3D%5C%22main%5C%22.*%3Fid%3D%5C%22resize_vod%5C%22%3E(%5B%5Cs%5CS%5D*%3F)%3Cdiv.*%3Fclass%3D%5C%22vod-play-tab.*%3Fmain%5C%22%3E",
+					"tit_rule":"class%3D%5C%22vod-l%5C%22%5B%5Cs%5CS%5D*%3Fdata-original%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3Fclass%3D%5C%22vod-n-l%5C%22%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E",
+					"tit_item":{
+						"img":"",
+						"imgurl":"",
+						"img_befor":0,
+						"name":"",
+						"note":"",
+						"actor":"",
+						"class":"",
+						"area":"",
+						"year":""
 					},
-					{
-						"name": "频道2",
-						"type": "rule",
-						"mod": 3,
-						"con": "<div class=\"modo_title top\">.*?电视.*?<\/h2>[\s\S]*?<div class=\"all_tab\"[\s\S]*?<ul.*?>([\s\S]*?)<\/ul>", //内容范围
-						"list": "<li><a href=\"(.*?)\" title=\"(.*?)\"[\s\S]*?<img class=\"loading\" src=\"(.*?)\"[\s\S]*?class=\"title\">(.*?)<[\s\S]*?</li>",
-						"item": {
-							"url": "https://m.kankanwu.com",
-							"name": 2,
-							"href": 1,
-							"img": 3,
-							"note": 4,
-							"href_befor": 1,
-							"img_befor": 1
-						}
-					},
-					{
-						"name": "频道3",
-						"type": "rule",
-						"mod": 3,
-						"con": "<div class=\"modo_title top\">.*?动漫.*?<\/h2>[\s\S]*?<div class=\"all_tab\"[\s\S]*?<ul.*?>([\s\S]*?)<\/ul>", //内容范围
-						"list": "<li><a href=\"(.*?)\" title=\"(.*?)\"[\s\S]*?<img class=\"loading\" src=\"(.*?)\"[\s\S]*?class=\"title\">(.*?)<[\s\S]*?</li>",
-						"item": {
-							"url": "https://m.kankanwu.com",
-							"name": 2,
-							"href": 1,
-							"img": 3,
-							"note": 4,
-							"href_befor": 1,
-							"img_befor": 1
-						}
-					},
-					{
-						"name": "频道4",
-						"type": "rule",
-						"mod": 3,
-						"con": "<div class=\"modo_title top\">.*?综艺.*?<\/h2>[\s\S]*?<div class=\"all_tab\"[\s\S]*?<ul.*?>([\s\S]*?)<\/ul>", //内容范围
-						"list": "<li><a href=\"(.*?)\" title=\"(.*?)\"[\s\S]*?<img class=\"loading\" src=\"(.*?)\"[\s\S]*?class=\"title\">(.*?)<[\s\S]*?</li>",
-						"item": {
-							"url": "https://m.kankanwu.com",
-							"name": 2,
-							"href": 1,
-							"img": 3,
-							"note": 4,
-							"href_befor": 1,
-							"img_befor": 1
+					"playlist":{
+						"tit_con":"%3Cdiv.*%3Fclass%3D%5C%22play-title%5C%22%3E%5B%5Cs%5CS%5D*%3F%E6%92%AD%E6%94%BE%5B%5Cs%5CS%5D*%3F(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fdiv%3E",
+						"tit_rule":"%3Cspan.*%3Fid%3D%22(%5B%5Exi%5D.*%3F)%22.*%3F%3E%3Ca%3E(.*%3F)%3C%5C%2Fa%3E%3C%5C%2Fspan%3E",
+						"tit_item":{
+							"name":2,
+							"id":1
+						},
+						"list_con":"%3Cdiv.*%3Fclass%3D%5C%22vod-info-tab%5C%22%5B%5Cs%5CS%5D*%3F%E6%92%AD%E6%94%BE%5B%5Cs%5CS%5D*%3F(%5B%5Cs%5CS%5D*%3F)%3C!--%E7%AE%80%E4%BB%8B%E6%9D%BF%E5%9D%97--%3E",
+						"list_con_con":"class%3D%5C%22play-box%5C%22.*%3Fid%3D%22%5B%5Exi%5D.*%3F%22(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E",
+						"list_rule":"%3Cli.*%3F%3E%5B%5Cs%5CS%5D*%3F%3Ca%5B%5Cs%5CS%5D*%3Fhref%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%3E",
+						"list_item":{
+							"name":2,
+							"href":1,
+							"href_befor":1,
+							"url":"https://m.kankanwu.com"
 						}
 					}
-				]
-			}]
-
-		}
+					
+				}
+		
+			}
 	]
 }
