@@ -138,7 +138,7 @@
 							"type": "rule",
 							"mod": "3",
 							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E5%BD%B1.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Fsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 							"item": {
 								"url": "https://m.kankanwu.com",
 								"imgurl": "https://m.kankanwu.com",
@@ -155,7 +155,7 @@
 							"type": "rule",
 							"mod": "3",
 							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%94%B5%E8%A7%86.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Fsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 							"item": {
 								"imgurl": "https://m.kankanwu.com",
 								"url": "https://m.kankanwu.com",
@@ -172,7 +172,7 @@
 							"type": "rule",
 							"mod": "3",
 							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E5%8A%A8%E6%BC%AB.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Fsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 							"item": {
 								"imgurl": "https://m.kankanwu.com",
 								"url": "https://m.kankanwu.com",
@@ -189,7 +189,7 @@
 							"type": "rule",
 							"mod": "3",
 							"con": "%3Cdiv%20class%3D%5C%22modo_title%20top%5C%22%3E.*%3F%E7%BB%BC%E8%89%BA.*%3F%3C%5C%2Fh2%3E%5B%5Cs%5CS%5D*%3F%3Cdiv%20class%3D%5C%22all_tab%5C%22%5B%5Cs%5CS%5D*%3F%3Cul.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Ful%3E", //内容范围
-							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Foriginal%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
+							"list": "%3Cli%3E%3Ca%5Cs%2Bhref%3D%5C%22(.*%3F)%5C%22%5Cs%2Btitle%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%3Cimg%5Cs%2Bclass%3D%5C%22loading%5C%22.*%3Fsrc%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3F%5C%22title%5C%22%3E(.*%3F)%3C%5B%5Cs%5CS%5D*%3F%3C%2Fli%3E",
 							"item": {
 								"imgurl": "https://m.kankanwu.com",
 								"url": "https://m.kankanwu.com",
@@ -206,7 +206,7 @@
 				"detail":{
 					"url":"",
 					"tit_con":"%3Cdiv.*%3Fclass%3D%5C%22main%5C%22.*%3Fid%3D%5C%22resize_vod%5C%22%3E(%5B%5Cs%5CS%5D*%3F)%3Cdiv.*%3Fclass%3D%5C%22vod-play-tab.*%3Fmain%5C%22%3E",
-					"tit_rule":"class%3D%5C%22vod-l%5C%22%5B%5Cs%5CS%5D*%3Fdata-original%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3Fclass%3D%5C%22vod-n-l%5C%22%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E",
+					"tit_rule":"class%3D%5C%22vod-l%5C%22%5B%5Cs%5CS%5D*%3Fsrc%3D%5C%22(.*%3F)%5C%22.*%3Falt%3D%5C%22(.*%3F)%5C%22%5B%5Cs%5CS%5D*%3Fclass%3D%5C%22vod-n-l%5C%22%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E%5B%5Cs%5CS%5D*%3F%3Cp.*%3F%3E(%5B%5Cs%5CS%5D*%3F)%3C%5C%2Fp%3E",
 					"tit_item":{
 						"img":"",
 						"imgurl":"",
