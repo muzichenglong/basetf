@@ -12,7 +12,7 @@
 			"class": [{
 				"name": "首页",
 				"type": "index",
-				"url": "https://m.kankanwu.com",
+				"url": "http://m.56kandy.com",
 				"list": [{
 						"name": "频道1",
 						"type": "rule",
@@ -112,7 +112,7 @@
 						"name":2,
 						"href":1,
 						"href_befor":1,
-						"url":"https://m.kankanwu.com"
+						"url":"http://m.56kandy.com"
 					}
 				}
 				
